@@ -8,6 +8,7 @@ import Node from "../assets/node.png";
 import Rust from "../assets/rust.png";
 import Solidity from "../assets/solidity.png";
 import Tailwind from "../assets/tailwind.png";
+import Next from "../assets/next.png";
 
 const Skills = () => {
   return (
@@ -35,12 +36,16 @@ const Skills = () => {
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <p className="my-4">NODE.JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE.JS</p>
+            <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
+            <p className="my-4">NEXT.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Rust} alt="HTML icon" />
