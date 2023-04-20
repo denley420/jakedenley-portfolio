@@ -9,6 +9,8 @@ import Rust from "../assets/rust.png";
 import Solidity from "../assets/solidity.png";
 import Tailwind from "../assets/tailwind.png";
 import Next from "../assets/next.png";
+import Graphql from "../assets/graphql.png";
+import Electron from "../assets/electron.png";
 
 const Skills = () => {
   return (
@@ -54,6 +56,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Solidity} alt="HTML icon" />
             <p className="my-4">SOLIDITY</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Graphql} alt="HTML icon" />
+            <p className="my-4">GRAPHQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Electron} alt="HTML icon" />
+            <p className="my-4">ELECTRON.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />

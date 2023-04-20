@@ -18,10 +18,10 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I'm focused on
-          Ethereum Blockchain to build and deploy smart contracts on ethereum
-          based applications.
+          I'm a full-stack developer specialized in creating and deploying smart
+          contracts on the Ethereum blockchain and was also a team leader of
+          frontend developers and interns to develop and maintain web and
+          desktop application.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

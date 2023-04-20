@@ -1,6 +1,7 @@
 import React from "react";
 import ubhotel from "../assets/ubhotel.png";
 import metadatagenerator from "../assets/metadatagenerator.png";
+import lexirevampdesktop from "../assets/lexi-revamp-desktop.png";
 
 const Work = () => {
   return (
@@ -31,6 +32,11 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    View
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -46,6 +52,36 @@ const Work = () => {
                 Metadata Generator
               </span>
               <div className="pt-8 text-center">
+                <a href="https://github.com/denley420/metadataGeneratorWebsite">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="http://metadata.solidity.xurpasportal.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    View
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${lexirevampdesktop})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                UB Hotel Web App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     View
